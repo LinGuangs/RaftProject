@@ -1,0 +1,87 @@
+{
+    // 编辑器相关设置
+    "editor.tabSize": 4, // 每次 Tab 键等于4个空格
+    "editor.insertSpaces": true, // 使用空格替代制表符
+    "editor.detectIndentation": false, // 禁用自动检测缩进，强制使用上述设置
+    "editor.formatOnSave": true, // 保存时自动格式化代码（需安装合适的格式化插件，如 clang-format）
+    "editor.rulers": [
+        80
+    ], // 在80列处显示标尺，帮助控制代码行宽
+    "editor.renderWhitespace": "boundary", // 仅显示有意义的空白字符
+    "editor.fontFamily": "Consolas, 'Courier New', monospace", // 字体设置，Visual Studio 常用字体
+    "editor.fontSize": 14, // 字体大小
+    // 文件自动保存和清理
+    "files.autoSave": "afterDelay", // 自动保存文件，编辑后延迟保存
+    "files.autoSaveDelay": 1000, // 自动保存延迟 1000 毫秒（1秒）
+    "files.trimTrailingWhitespace": true, // 自动去除行末多余空白
+    "files.insertFinalNewline": true, // 确保文件末尾有换行
+    "files.trimFinalNewlines": true, // 去除文件末尾多余的空行
+    // C/C++ IntelliSense 和编译配置
+    "C_Cpp.clang_format_style": "Visual Studio", // 使用 Visual Studio 风格的 clang-format 格式
+    "C_Cpp.clang_format_fallbackStyle": "Visual Studio", // 若找不到 .clang-format 文件则使用 Visual Studio 风格
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**", // 当前工作区下的所有目录
+        "/usr/include", // 系统头文件目录
+        "/usr/local/include" // 其他常见头文件目录
+    ],
+    "C_Cpp.default.defines": [],
+    "C_Cpp.intelliSenseEngine": "default", // 使用默认的 IntelliSense 引擎
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "files.associations": {
+        "new": "cpp",
+        "iostream": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "chrono": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "condition_variable": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "initializer_list": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "mutex": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "thread": "cpp",
+        "cinttypes": "cpp",
+        "typeinfo": "cpp"
+    } // 指定编译器路径
+    // 其他自定义设置可以根据个人需要继续扩展
+}

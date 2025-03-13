@@ -1,0 +1,3 @@
+/home/a/RaftProject/build/CMakeFiles/rebuild_cache.dir
+/home/a/RaftProject/build/CMakeFiles/edit_cache.dir
+/home/a/RaftProject/build/CMakeFiles/raft_node.dir
